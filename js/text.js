@@ -1,7 +1,7 @@
 const typed = new Typed(".typed", {
-    strings: ["Soy Juan Pablo Restrepo, soy desarrollador front-end  y  actualmente estudiante de ingenieria en sistemas." ],
+    strings: ["Soy desarrollador Front-end, ademas soy estudiante de ingenieria informatica." ],
     stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	typeSpeed: 50, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
 	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: false, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.

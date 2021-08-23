@@ -1,0 +1,50 @@
+.me__about__container{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.me__about--description{
+    max-width: 200px;
+    font-size: 1.5rem;
+}
+
+.me__about--technologies-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+
+.skills__about{
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.skills__about--container{
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.skills__about--description{
+    margin-top: 10px;
+    max-width: 200px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.skills__about--title{
+    left: calc(100% - 150px);
+}
+
+.main__certificates--description{
+    margin-top: 10px;
+    margin-right: 30px;
+    max-width: 200px;
+    font-size: 1.5rem;
+}
+
+.main__certificates--container{
+    flex-direction: row;
+    justify-content: space-evenly;
+}

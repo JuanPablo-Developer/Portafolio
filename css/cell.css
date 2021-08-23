@@ -1,0 +1,15 @@
+#particles-js{
+    height: 150vh;
+}
+
+svg{
+    bottom: 115px;
+}
+
+.header__menu--pc{
+    display: none;
+}
+
+.main__me{
+    margin-top: -120px;
+}

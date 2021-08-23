@@ -1,0 +1,53 @@
+header{
+    padding: 0 30px;
+}
+
+.header__menu--pc{
+    display: flex;
+}
+
+.header__menu--pc ul{
+    height: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header__menu--pc ul li a{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 1.8rem;
+}
+
+#header__burger-menu{
+    display: none;
+}
+
+.main__presentation{
+    justify-content: space-evenly;
+}
+
+.main__presentation--titles{
+    width: 500px;
+}
+
+.main__presentation--titles{
+    margin-top: -60px;
+}
+
+.main__presentation h1{
+    font-size: 8rem;
+}
+
+.main__presentation h1,
+.main__presentation h2,
+.main__presentation h3{
+    margin-right: 30px;
+}
+
+.main__presentation--card{
+    margin-left: 30px;
+}
+
